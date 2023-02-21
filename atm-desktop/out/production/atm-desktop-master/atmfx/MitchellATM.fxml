@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="670.0" prefWidth="835.0" style="-fx-background-color: #a1f0ff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atmfx.MitchellATMController">
+  <children>
+    <Button fx:id="buttonBalance" layoutY="95.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 30 30 30 30;" stylesheets="@../../../../Desktop/2020-CI401-atm-solution/atm.css" text="Balance" />
+    <Button fx:id="buttonWithdraw" layoutY="185.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 30 30 30 30;" text="Withdraw" />
+    <Button fx:id="buttonDeposit" layoutY="275.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 30 30 30 30;" text="Deposit" />
+    <Button id="sellect4" layoutY="365.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 30 30 30 30;" />
+    <Button id="sellect5" layoutX="717.0" layoutY="95.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 30 30 30 30;" />
+    <Button id="sellect6" layoutX="717.0" layoutY="185.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 30 30 30 30;" />
+    <Button id="sellect7" layoutX="717.0" layoutY="275.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 30 30 30 30;" />
+    <Button fx:id="buttonLogout" layoutX="717.0" layoutY="365.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 30 30 30 30;" text="Log Out" />
+    <TextArea fx:id="infoArea" layoutX="118.0" layoutY="95.0" prefHeight="315.0" prefWidth="597.0" text="Enter your account number !" />
+    <TextField fx:id="resultArea" layoutX="323.0" layoutY="102.0" prefHeight="31.0" prefWidth="185.0" style="-fx-border-color: white;" />
+    <Button fx:id="button1" layoutX="258.0" layoutY="442.0" onAction="#handleButtonAction" onMouseClicked="#handleButtonAction" prefHeight="45.0" prefWidth="55.0" text="1" />
+    <Button fx:id="button2" layoutX="323.0" layoutY="442.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="55.0" text="2" />
+    <Button fx:id="button3" layoutX="388.0" layoutY="442.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="55.0" text="3" />
+    <Button fx:id="button4" layoutX="258.0" layoutY="494.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="55.0" text="4" />
+    <Button fx:id="button5" layoutX="323.0" layoutY="494.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="55.0" text="5" />
+    <Button fx:id="button6" layoutX="388.0" layoutY="494.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="55.0" text="6" />
+    <Button fx:id="button7" layoutX="258.0" layoutY="545.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="55.0" text="7" />
+    <Button fx:id="button8" layoutX="323.0" layoutY="545.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="55.0" text="8" />
+    <Button fx:id="button9" layoutX="388.0" layoutY="545.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="55.0" text="9" />
+    <Button fx:id="button0" layoutX="322.0" layoutY="596.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="55.0" text="0" />
+    <Button fx:id="buttonCancel" layoutX="458.0" layoutY="442.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 10 10 10 10; -fx-background-color: #00ff1a;" text="CANCELL" />
+    <Button fx:id="buttonClear" layoutX="458.0" layoutY="494.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 10 10 10 10; -fx-background-color: #ff0000;" text="CLEAR" />
+    <Button fx:id="buttonEnter" layoutX="458.0" layoutY="545.0" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="117.0" style="-fx-background-radius: 10 10 10 10; -fx-background-color: #f6ff00;" text="ENTER" />
+    <Button id="insertcard" layoutX="321.0" layoutY="487.0" onAction="#handleButtonAction" prefHeight="87.0" prefWidth="193.0" style="-fx-background-radius: 20 20 20 20;" text="INSERT CARD" visible="false" />
+  </children>
+</AnchorPane>
